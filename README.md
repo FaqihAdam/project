@@ -1,5 +1,4 @@
-# PROJECT SKRIPSI SISTEM PENCATATAN ASET BERBASIS WEB DI BADAN PUSAT STATISTIK KABUPATEN PEKALONGAN
-Inventaris Aset Barang Berbasis Web
+# PROJECT Terpadu Sistem Inventoris
 ___________________________________________________________________________________________________________________________________________________________________
 
 <strong>Tentang Website</strong>
