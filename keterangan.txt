@@ -1,0 +1,11 @@
+
+ADMIN -> -Data Admin
+		 -Data Petugas
+		 -Data UAKPB
+		 -Data Barang
+		 -Data Barang Masuk
+		 -Data Barang Keluar
+		 -Laporan
+
+PETUGAS ->-Data Barang Masuk
+		  -Data Ajuan Barang Keluar
