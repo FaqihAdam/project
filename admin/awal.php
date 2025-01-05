@@ -269,27 +269,6 @@ $r = mysqli_fetch_array($query);
               </div>
             </div>
 
-            <!-- Jumlah Ajuan -->
-            <div class="col-lg-3 col-6">
-              <div class="small-box bg-red">
-                <div class="inner">
-                  <?php
-                  $sql = "SELECT count(no_ajuan) as jajuan FROM tb_ajuan";
-                  $query = mysqli_query($koneksi, $sql);
-                  $r_ajuan = mysqli_fetch_assoc($query);
-                  echo "<h3>" . $r_ajuan['jajuan'] . "</h3>";
-                  ?>
-                  <p>Jumlah Ajuan</p>
-                </div>
-                <div class="icon">
-                  <i class="fa fa-gift"></i>
-                </div>
-                <a href="?m=barangKeluar&s=awal" class="small-box-footer">
-                  View Details <i class="fas fa-arrow-circle-right"></i>
-                </a>
-              </div>
-            </div>
-
             <!-- Jumlah Barang Keluar -->
             <div class="col-lg-3 col-6">
               <div class="small-box bg-red">
