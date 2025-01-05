@@ -105,18 +105,6 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="?m=uakpb&s=awal" class="nav-link">
-                <i class="nav-icon fas fa-building"></i>
-                <p>Data UAKPB</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="?m=tim&s=awal" class="nav-link">
-                <i class="nav-icon fas fa-cubes"></i>
-                <p>Data TIM</p>
-              </a>
-            </li>
-            <li class="nav-item">
               <a href="?m=barang&s=awal" class="nav-link">
                 <i class="nav-icon fas fa-archive"></i>
                 <p>Data Barang</p>

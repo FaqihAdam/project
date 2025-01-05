@@ -77,8 +77,6 @@ $nomor_barang_keluar = mt_rand(1000, 9999);
             <li class="nav-item"><a href="?m=awal.php" class="nav-link"><i class="nav-icon fas fa-tachometer-alt"></i><p>Beranda</p></a></li>
             <li class="nav-item"><a href="?m=admin&s=awal" class="nav-link"><i class="nav-icon fas fa-user"></i><p>Data Admin</p></a></li>
             <li class="nav-item"><a href="?m=petugas&s=awal" class="nav-link"><i class="nav-icon fas fa-users"></i><p>Data Petugas</p></a></li>
-            <li class="nav-item"><a href="?m=uakpb&s=awal" class="nav-link"><i class="nav-icon fas fa-building"></i><p>Data UAKPB</p></a></li>
-            <li class="nav-item"><a href="?m=tim&s=awal" class="nav-link"><i class="nav-icon fas fa-cubes"></i><p>Data TIM</p></a></li>
             <li class="nav-item"><a href="?m=barang&s=awal" class="nav-link"><i class="nav-icon fas fa-archive"></i><p>Data Barang</p></a></li>
             <li class="nav-item"><a href="?m=barangMasuk&s=awal" class="nav-link"><i class="nav-icon fas fa-cart-plus"></i><p>Data Barang Masuk</p></a></li>
             <li class="nav-item"><a href="?m=barangKeluar&s=awal" class="nav-link"><i class="nav-icon fas fa-cart-arrow-down"></i><p>Data Barang Keluar</p></a></li>
