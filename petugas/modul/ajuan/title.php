@@ -198,40 +198,10 @@ $jamSekarang = date("h:i a");
                     <label for="petugas">Nama Petugas</label>
                     <select class="form-control select2" id="petugas" name="petugas">
                       <option value="">Silakan pilih nama Petugas</option>
-                      <option value="Maibu Barwis Sugiharto, S.ST., M.Si.">Maibu Barwis Sugiharto, S.ST., M.Si.</option>
-                      <option value="Kismia Hartatik, SST">Kismia Hartatik, SST</option>
-                      <option value="Urip Puji Raharjo, SST, MAP">Urip Puji Raharjo, SST, MAP</option>
-                      <option value="Ir. Nuringtijas Priharjani, M.M">Ir. Nuringtijas Priharjani, M.M</option>
-                      <option value="Aufarul Faroh, SE., M.Sc">Aufarul Faroh, SE., M.Sc</option>
-                      <option value="Eko Sujadi, SE, M.M.">Eko Sujadi, SE, M.M.</option>
-                      <option value="Okris Jubaidi, SST, Msi">Okris Jubaidi, SST, Msi</option>
-                      <option value="Sri Mulyati, SST, M.M">Sri Mulyati, SST, M.M</option>
-                      <option value="Arif Muttaqin, SST">Arif Muttaqin, SST</option>
-                      <option value="Rani Kirnawati, SST">Rani Kirnawati, SST</option>
-                      <option value="Suko Prayogi, SP.,M.E">Suko Prayogi, SP.,M.E</option>
-                      <option value="Sari Dewi Mashunah, A.Md">Sari Dewi Mashunah, A.Md</option>
-                      <option value="Mutiara Salsabella, A.P.Kb.N.">Mutiara Salsabella, A.P.Kb.N.</option>
-                      <option value="Intan Puspita Dewi, A.Md">Intan Puspita Dewi, A.Md</option>
-                      <option value="Andhika Misriyanto, A.Md">Andhika Misriyanto, A.Md</option>
-                      <option value="Trubus Setiabudi A.Md">Trubus Setiabudi A.Md</option>
-                      <option value="Aprilia Ummi Mujahidah, A. Md. Stat">Aprilia Ummi Mujahidah, A. Md. Stat</option>
-                      <option value="Anita Rokhawati, SST">Anita Rokhawati, SST</option>
-                      <option value="Abdul Khamid, A.Md">Abdul Khamid, A.Md</option>
-                      <option value="Windya Nugroho, A.Md.">Windya Nugroho, A.Md.</option>
-                      <option value="Novy Febriana, SST">Novy Febriana, SST</option>
-                      <option value="Ita Rokhaini, A.Md">Ita Rokhaini, A.Md</option>
-                      <option value="April Nugroho Sri H, SE">April Nugroho Sri H, SE</option>
-                      <option value="Munir, A.Md">Munir, A.Md</option>
-                      <option value="Saifudin Zuhri, SE, M.Acc">Saifudin Zuhri, SE, M.Acc</option>
-                      <option value="Harjito">Harjito</option>
-                      <option value="Hayati Sriwigati, A.Md">Hayati Sriwigati, A.Md</option>
-                      <option value="Achmad Subchan, A.Md">Achmad Subchan, A.Md</option>
-                      <option value="Mochamad Habibi,S,Si">Mochamad Habibi,S,Si</option>
-                      <option value="Ibnu Utomo, A.Md">Ibnu Utomo, A.Md</option>
-                      <option value="Arinda Purbeni, A.Md">Arinda Purbeni, A.Md</option>
-                      <option value="Arif Santoso, SST,M.Ak">Arif Santoso, SST,M.Ak</option>
-                      <option value="Akhmad Ghozien, SST">Akhmad Ghozien, SST</option>
-                      <option value="Risa Bella Rosanti, A.Md">Risa Bella Rosanti, A.Md</option>
+                      <option value="Faqih">Faqih</option>
+                      <option value="Khodam">Khodam</option>
+                      <option value="Dukeh">Dukeh</option>
+                
                       <!-- Add more options as needed -->
                     </select>
                   </div>
@@ -291,7 +261,7 @@ $jamSekarang = date("h:i a");
     <!-- Footer -->
     <footer class="main-footer">
       <strong>Copyright &copy;
-        <script>document.write(new Date().getFullYear());</script> Sistem Inventory Barang BPS.
+        <script>document.write(new Date().getFullYear());</script> Sistem Inventory.
       </strong>
       All rights reserved.
     </footer>

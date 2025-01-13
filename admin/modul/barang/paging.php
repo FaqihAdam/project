@@ -43,12 +43,6 @@ foreach ($data_rak as $row):
         <td>
             <?php echo $row['stok']; ?>
         </td>
-        <td>
-            <?php echo $row['tim']; ?>
-        </td>
-        <td>
-            <?php echo $row['supplier']; ?>
-        </td>
         <td><a href="index.php?m=barang&s=hapus&id_barang=<?php echo $row['id_barang']; ?>"
                 onclick="return confirm('Yakin Akan dihapus?')"><button class="btn btn-danger">Hapus</button></a> | <a
                 href="index.php?m=barang&s=ubah&id_barang=<?php echo $row['id_barang']; ?>"><button

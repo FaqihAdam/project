@@ -204,7 +204,7 @@ $jamSekarang = date("h:i a");
         <div class="row">
           <div class="col text-center">
             <p class="text-muted mb-0">Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> Sistem Inventory Barang BPS. All rights reserved
+              <script>document.write(new Date().getFullYear());</script> Sistem Inventory . All rights reserved
             </p>
           </div>
         </div>

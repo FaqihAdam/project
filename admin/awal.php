@@ -268,12 +268,6 @@ $r = mysqli_fetch_array($query);
                 </a>
               </div>
             </div>
-
-<<<<<<< HEAD
-            
-
-=======
->>>>>>> abc1c431273c7acf8b9be2bda73d8fe8f9cd999b
             <!-- Jumlah Barang Keluar -->
             <div class="col-lg-3 col-6">
               <div class="small-box bg-red">

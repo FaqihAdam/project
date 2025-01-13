@@ -22,8 +22,6 @@ while ($row=mysqli_fetch_array($data_brg_in)) {
                                             <tr>
                                                 <td><?php echo $row['id_brg_in']; ?></td>
                                                 <td><?php echo $row['tanggal']; ?></td>
-                                                <td><?php echo $row['noinv']; ?></td>
-                                                <td><?php echo $row['supplier']; ?></td>
                                                 <td><?php echo $row['kode_brg']; ?></td>
                                                 <td><?php echo $row['nama_brg']; ?></td>
                                                 <td><?php echo $row['stok']; ?></td>

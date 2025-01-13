@@ -260,7 +260,7 @@
         <!-- /.content -->
         <!-- Footer -->
         <footer class="main-footer text-center">
-            <strong>&copy; <?php echo date('Y'); ?> Sistem Inventory Barang BPS.</strong> All rights reserved.
+            <strong>&copy; <?php echo date('Y'); ?> Sistem Inventory</strong> All rights reserved.
         </footer>
     </div>
     <!-- /.content-wrapper -->

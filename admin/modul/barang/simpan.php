@@ -21,8 +21,6 @@
 		$nama_brg = $_POST['nama_brg'];
 		$satuan = $_POST['satuan'];
 		$stok = $_POST['stok'];
-		$tim = $_POST['tim'];
-		$supplier = $_POST['supplier'];
 		//cek id
 		$sql_cek = mysqli_query($koneksi, "SELECT * FROM tb_barang WHERE id_barang = '$id'");
 		$cek = mysqli_fetch_row($sql_cek);
@@ -39,7 +37,7 @@
 		        });
 		      </script>';
 		} else {
-			$sql = "INSERT INTO tb_barang SET kode_brg='$kode_brg', nama_brg='$nama_brg', satuan='$satuan', stok='$stok', tim='$tim', supplier='$supplier'";
+			$sql = "INSERT INTO tb_barang SET kode_brg='$kode_brg', nama_brg='$nama_brg', satuan='$satuan', stok='$stok'";
 			mysqli_query($koneksi, $sql);
 			if ($sql) {
 				echo "<script>

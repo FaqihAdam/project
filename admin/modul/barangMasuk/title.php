@@ -181,10 +181,6 @@
             <input type="date" class="form-control" name="tanggal" placeholder="Masukkan Tanggal">
           </div>
 
-          <div class="form-group">
-            <label for="noinv">No. Invoice</label>
-            <input type="text" class="form-control" name="noinv" placeholder="Masukkan Nomor Invoice">
-          </div>
 
           <div class="form-group">
             <label for="kode_brg">Kode Barang</label>
@@ -209,7 +205,7 @@
               function changeValue(id) {
                 document.getElementById('prd_nmbrg').value = prdName[id].nama_brg;
                 document.getElementById('prd_stk').value = prdName[id].stok;
-                document.getElementById('prd_sup').value = prdName[id].supplier;
+             
               }
             </script>
           </div>
@@ -219,10 +215,7 @@
             <input type="text" class="form-control" id="prd_nmbrg" name="nama_brg" readonly>
           </div>
 
-          <div class="form-group">
-            <label for="supplier">Supplier</label>
-            <input type="text" class="form-control" id="prd_sup" name="supplier" readonly>
-          </div>
+
 
           <div class="form-group">
             <label for="stok">Stok</label>
@@ -268,8 +261,6 @@
                   <tr>
                     <th>No</th>
                     <th>Tanggal</th>
-                    <th>No Invoice</th>
-                    <th>UAKPB</th>
                     <th>Kode Barang</th>
                     <th>Nama Barang</th>
                     <th>Stok</th>
@@ -290,8 +281,6 @@
                     echo "<tr>
                             <td>$no</td>
                             <td>$data[tanggal]</td>
-                            <td>$data[noinv]</td>
-                            <td>$data[supplier]</td>
                             <td>$data[kode_brg]</td>
                             <td>$data[nama_brg]</td>
                             <td>$data[stok]</td>
@@ -317,7 +306,7 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <p class="text-muted mb-0">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Sistem Inventory Barang BPS. All rights reserved</p>
+            <p class="text-muted mb-0">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Sistem Inventory . All rights reserved</p>
           </div>
         </div>
       </div>

@@ -217,34 +217,7 @@
                         aria-describedby="emailHelp" placeholder="Masukkan Stok Barang">
                       <small id="emailHelp" class="form-text text-muted">Masukkan Stok Barang</small>
                     </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">Tim</label>
-                      <select class="form-control" name="tim" required="">
-                        <?php
-                        include '../koneksi.php';
-                        $sql = "SELECT * FROM tb_tim";
-                        $hasil = mysqli_query($koneksi, $sql);
-                        while ($data = mysqli_fetch_array($hasil)) {
-                          ?>
-                          <option value="<?php echo $data['nama_tim']; ?>"><?php echo $data['nama_tim']; ?></option>
-                        <?php } ?>
-                      </select>
-                      <small id="emailHelp" class="form-text text-muted"></small>
-                    </div>
-                    <div class="form-group">
-                      <label for="exampleInputEmail1">UAKPB</label>
-                      <select class="form-control" name="supplier" required="">
-                        <?php
-                        include '../koneksi.php';
-                        $sql = "SELECT * FROM tb_sup";
-                        $hasil = mysqli_query($koneksi, $sql);
-                        while ($data = mysqli_fetch_array($hasil)) {
-                          ?>
-                          <option value="<?php echo $data['nama_sup']; ?>"><?php echo $data['nama_sup']; ?></option>
-                        <?php } ?>
-                      </select>
-                      <small id="emailHelp" class="form-text text-muted"></small>
-                    </div>
+                   
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -264,8 +237,6 @@
                     <th>Nama Barang</th>
                     <th>Satuan</th>
                     <th>Stok</th>
-                    <th>TIM</th>
-                    <th>UAKPB</th>
                     <th>Aksi</th>
                   </tr>
                 </thead>
@@ -282,8 +253,6 @@
                                            <td>{$data['nama_brg']}</td>
                                            <td>{$data['satuan']}</td>
                                            <td>{$data['stok']}</td>
-                                           <td>{$data['tim']}</td>
-                                           <td>{$data['supplier']}</td>
                                            <td>
                                                 <a href='?m=barang&s=ubah&id_barang={$data['id_barang']}' class='btn btn-warning btn-sm'>Edit</a>
                                                 <a href='?m=barang&s=hapus&id_barang={$data['id_barang']}' class='btn btn-danger btn-sm' onclick='return confirm(\"Yakin ingin menghapus?\")'>Delete</a>
@@ -305,7 +274,7 @@
         <div class="row">
           <div class="col text-center">
             <p class="text-muted mb-0">Copyright &copy;
-              <script>document.write(new Date().getFullYear());</script> Sistem Pencatatan Aset BPS. All rights reserved
+              <script>document.write(new Date().getFullYear());</script> Sistem Inventory All rights reserved
             </p>
           </div>
         </div>

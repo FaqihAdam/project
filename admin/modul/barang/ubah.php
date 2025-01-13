@@ -89,18 +89,6 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="?m=supplier&s=awal" class="nav-link">
-                <i class="nav-icon fas fa-building"></i>
-                <p>Data UAKPB</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="?m=rak&s=awal" class="nav-link">
-                <i class="nav-icon fas fa-cubes"></i>
-                <p>Data TIM</p>
-              </a>
-            </li>
-            <li class="nav-item">
               <a href="?m=barang&s=awal" class="nav-link">
                 <i class="nav-icon fas fa-archive"></i>
                 <p>Data Barang</p>

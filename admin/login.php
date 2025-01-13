@@ -82,7 +82,7 @@
 </li>
 </ul>
 <hr class="medium">
-<p class="text-muted" style="font-size: 16px;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Sistem Inventory Barang BPS All rights reserved</p>
+<p class="text-muted" style="font-size: 16px;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> Sistem Inventory All rights reserved</p>
 </div>
 </section>
 </footer>

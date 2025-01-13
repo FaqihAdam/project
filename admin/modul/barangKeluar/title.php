@@ -249,8 +249,8 @@ $nomor_barang_keluar = mt_rand(1000, 9999);
                     echo "<td>{$row['tanggal_ajuan']}</td>";
                     echo "<td>{$row['tanggal_out']}</td>";
                     echo "<td>{$row['petugas']}</td>";
-                    echo "<td>{$row['kode_barang']}</td>";
-                    echo "<td>{$row['nama_barang']}</td>";
+                    echo "<td>{$row['kode_brg']}</td>";
+                    echo "<td>{$row['nama_brg']}</td>";
                     echo "<td>{$row['stok']}</td>";
                     echo "<td>{$row['jml_ajuan']}</td>";
                     echo "<td>{$row['keterangan']}</td>";
@@ -273,7 +273,7 @@ $nomor_barang_keluar = mt_rand(1000, 9999);
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <p class="text-muted mb-0">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Sistem Inventory Barang BPS. All rights reserved</p>
+            <p class="text-muted mb-0">Copyright &copy; <script>document.write(new Date().getFullYear());</script> Sistem Inventory  All rights reserved</p>
           </div>
         </div>
       </div>
